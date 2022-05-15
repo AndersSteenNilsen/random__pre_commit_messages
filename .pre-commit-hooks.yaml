@@ -3,4 +3,5 @@
     description: This hook trims trailing whitespace.
     entry: create_message
     language: python
-    #stages: [commit-msg]
+    args: [--gpt-3-key=dummy]
+    stages: [commit-msg]

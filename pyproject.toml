@@ -19,3 +19,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 create_message = 'auto_git_message.generator:generate_message'
+
+[tool.black]
+line-length = 88
+skip-string-normalization = true

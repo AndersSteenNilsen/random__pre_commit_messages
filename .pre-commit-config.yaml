@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
+    rev: v4.2.0
     hooks:
       - id: check-yaml
   - repo: local
@@ -10,7 +10,8 @@ repos:
         description: This hook trims trailing whitespace.
         entry: create_message
         language: python
-        stages: [commit-msg]
+        args: [--gpt-3-key=dummy]
+        # stages: [commit-msg]
 
 #   - repo: .
 #     rev: master
