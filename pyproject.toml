@@ -18,4 +18,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-create_message = 'auto_git_message.auto_git_message:generate_message'
+create_message = 'auto_git_message.generator:generate_message'
