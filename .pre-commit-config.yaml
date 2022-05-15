@@ -8,7 +8,7 @@ repos:
       - id: local-auto-git-messsage
         name: Generate git message
         description: This hook trims trailing whitespace.
-        entry: auto-git-messsage
+        entry: create_message
         language: python
         stages: [commit-msg]
 
