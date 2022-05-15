@@ -3,15 +3,14 @@ repos:
     rev: v2.3.0
     hooks:
       - id: check-yaml
-#   - repo: local
-#     hooks:
-#       - id: local-auto-git-messsage
-#         name: Generate git message
-#         description: This hook trims trailing whitespace.
-#         entry: auto-git-messsage
-#         language: python
-#         types: [text]
-#         stages: [commit-msg]
+  - repo: local
+    hooks:
+      - id: local-auto-git-messsage
+        name: Generate git message
+        description: This hook trims trailing whitespace.
+        entry: auto-git-messsage
+        language: python
+        stages: [commit-msg]
 
 #   - repo: .
 #     rev: master
