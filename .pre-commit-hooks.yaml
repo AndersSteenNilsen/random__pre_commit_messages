@@ -1,6 +1,6 @@
 -   id: auto-git-messsage
-    name: Generate git message
-    description: This hook trims trailing whitespace.
+    name: Generate random git message
+    description: Put 'random' as your commit message to make it work. 
     entry: create_message
     language: python
     args: [--gpt-3-key=dummy]
