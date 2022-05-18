@@ -1,7 +1,6 @@
--   id: auto-git-messsage
-    name: Generate random git message
-    description: Put 'random' as your commit message to make it work. 
+-   id: random-git-messsage
+    name: random git messsage
+    description: git commit -m "random" will give you a random commit message
     entry: create_message
     language: python
-    args: [--gpt-3-key=dummy]
     stages: [commit-msg]

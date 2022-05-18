@@ -13,14 +13,12 @@ def get_random_commit_message():
 def generate_message(commit_message_filename=sys.argv[-1]):
     print(sys.argv)
     with open(commit_message_filename, 'r') as f:
-        commit_message = f.read()
+        commit_message = f.read().strip()
     if commit_message != 'random':
-        print('Not gonna print a random git message')
-        return 0
-
+        return 1
     with open(commit_message_filename, 'w') as f:
-        f.write(get_random_commit_message())
-
+        random_message = get_random_commit_message()
+        f.write(random_message)
     return 0
 
 

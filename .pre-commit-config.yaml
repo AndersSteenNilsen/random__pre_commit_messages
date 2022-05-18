@@ -3,17 +3,8 @@ repos:
     rev: v4.2.0
     hooks:
       - id: check-yaml
-  - repo: local
-    hooks:
-      - id: local-auto-git-messsage
-        name: Generate git message
-        description: This hook trims trailing whitespace.
-        entry: create_message
-        language: python
-        args: [--gpt-3-key=dummy]
-        stages: [commit-msg]
 
-#   - repo: .
-#     rev: master
-#     hooks:
-#       - id: auto-git-messsage
+  # - repo: .
+  #   rev: master
+  #   hooks:
+  #     - id: random-git-messsage
