@@ -4,7 +4,7 @@ repos:
     hooks:
       - id: check-yaml
 
-  # - repo: .
-  #   rev: master
-  #   hooks:
-  #     - id: random-git-messsage
+  - repo: .
+    rev: fedf48a6ae379daf56e286ec651794578817575e
+    hooks:
+      - id: random-git-messsage

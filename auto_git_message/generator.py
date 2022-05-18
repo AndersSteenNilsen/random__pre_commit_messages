@@ -15,7 +15,7 @@ def generate_message(commit_message_filename=sys.argv[-1]):
     with open(commit_message_filename, 'r') as f:
         commit_message = f.read().strip()
     if commit_message != 'random':
-        return 1
+        return 0
     with open(commit_message_filename, 'w') as f:
         random_message = get_random_commit_message()
         f.write(random_message)
