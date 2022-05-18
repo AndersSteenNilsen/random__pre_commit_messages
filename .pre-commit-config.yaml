@@ -11,7 +11,7 @@ repos:
         entry: create_message
         language: python
         args: [--gpt-3-key=dummy]
-        # stages: [commit-msg]
+        stages: [commit-msg]
 
 #   - repo: .
 #     rev: master
