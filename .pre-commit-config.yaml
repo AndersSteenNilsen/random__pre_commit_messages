@@ -5,6 +5,6 @@ repos:
       - id: check-yaml
 
   - repo: https://github.com/AndersSteenNilsen/random__pre_commit_messages
-    rev: 3fa3f84e4a8963156fb77ee350a0e97366863876
+    rev: v0.1.0
     hooks:
       - id: random-git-messsage
