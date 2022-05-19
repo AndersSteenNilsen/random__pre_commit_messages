@@ -1,7 +1,7 @@
 ## How to use:
 Insert 
 ```yaml
-  - repo: https://github.com/AndersSteenNilsen/random__pre_commit_messages
+  - repo: https://github.com/AndersSteenNilsen/random_pre_commit_messages
     rev: v0.1.0
     hooks:
       - id: random-git-messsage
