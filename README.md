@@ -6,7 +6,7 @@ Insert
     hooks:
       - id: random-git-messsage
 ```
-into your `.pre-commit-config.yaml` and every time you want a random commit message just put *"random"* as your message. e.g: `commit -m "random"`
+into your `.pre-commit-config.yaml` and every time you want a random commit message just put *"random"* as your message. e.g: `git commit -m "random"`
 
 ### The commit_message.txt
 Stole list of commit messages from [commitment](https://github.com/ngerakines/commitment).
