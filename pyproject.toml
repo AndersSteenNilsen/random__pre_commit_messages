@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "auto_git_message"
 version = "0.1.0"
-description = "Adding git messages automatically."
+description = "Adding random git messages automatically."
 authors = ["Anders Steen <asteennilsen@gmail.com>"]
 license = "MIT"
 
