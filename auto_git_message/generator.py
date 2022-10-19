@@ -21,6 +21,6 @@ def generate_message(commit_message_filename=sys.argv[-1]):
         f.write(random_message)
     return 0
 
-
+# comment
 if __name__ == '__main__':
     exit()
