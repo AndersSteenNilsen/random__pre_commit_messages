@@ -1,9 +1,13 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.2.0
+    rev: v4.3.0
     hooks:
       - id: check-yaml
-
+  - repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+      - id: black
+  
   - repo: https://github.com/AndersSteenNilsen/random_pre_commit_messages
     rev: v0.1.0
     hooks:
